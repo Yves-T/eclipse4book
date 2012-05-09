@@ -13,6 +13,6 @@ public class TodoDetailsPart {
 
 	@PreDestroy
 	public void dispose() {
-
+		
 	}
 }

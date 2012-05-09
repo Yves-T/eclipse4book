@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_MKihcH5AEeGdRqm2I-i8Vw" elementId="com.example.e4.rcp.todo.application">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_M2r1wH5AEeGdRqm2I-i8Vw" label="To-do" x="0" y="0" width="200" height="200">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_M2r1wH5AEeGdRqm2I-i8Vw" label="To-do" x="0" y="0" width="400" height="480">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_oGXBMH5CEeGdRqm2I-i8Vw">
       <children xsi:type="advanced:Perspective" xmi:id="_pKD54H5CEeGdRqm2I-i8Vw" elementId="com.example.e4.rcp.todo.simple" label="To-do">
         <children xsi:type="basic:PartSashContainer" xmi:id="_d9TREH5DEeGdRqm2I-i8Vw" horizontal="true">
-          <children xsi:type="basic:PartStack" xmi:id="_gUgZAH5DEeGdRqm2I-i8Vw">
-            <children xsi:type="basic:Part" xmi:id="_mM36kH5DEeGdRqm2I-i8Vw" elementId="com.example.e4.rcp.ui.parts.todooverview" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.ui.parts.TodoOverviewPart" label="To-Dos"/>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_ax9loJieEeG3c41wWnC8hg">
+            <children xsi:type="basic:PartStack" xmi:id="_gUgZAH5DEeGdRqm2I-i8Vw">
+              <children xsi:type="basic:Part" xmi:id="_mM36kH5DEeGdRqm2I-i8Vw" elementId="com.example.e4.rcp.ui.parts.todooverview" contributionURI="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.ui.parts.TodoOverviewPart" label="To-Dos"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_hI1BEJieEeG3c41wWnC8hg">
+              <children xsi:type="basic:Part" xmi:id="_WHqZsJieEeG3c41wWnC8hg" label="Deletion"/>
+            </children>
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_jZQjcH5DEeGdRqm2I-i8Vw">
             <children xsi:type="basic:PartStack" xmi:id="_kbOWwH5DEeGdRqm2I-i8Vw">
