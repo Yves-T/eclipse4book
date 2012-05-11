@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_4EAq8JsxEeGX-_gQW4jWxg">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_oO_HcJs7EeG0l-Bd5z4e9g" parentElementId="com.example.e4.rcp.todo.application"/>
+</fragment:ModelFragments>
