@@ -16,6 +16,10 @@
                name="appName"
                value="to-do">
          </property>
+         <property
+               name="rendererFactoryUri"
+               value="bundleclass://com.example.e4.rcp.todo/com.example.e4.rcp.todo.renderer.MyRendererFactory">
+         </property>
       </product>
    </extension>
 
