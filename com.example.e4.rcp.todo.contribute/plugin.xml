@@ -5,7 +5,7 @@
          id="id1"
          point="org.eclipse.e4.workbench.model">
       <fragment
-            uri="fragment.e4xmi">
+            uri="fragment3.e4xmi">
       </fragment>
       <processor
             beforefragment="true"
