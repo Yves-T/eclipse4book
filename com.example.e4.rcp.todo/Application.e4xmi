@@ -29,6 +29,9 @@
         <children xsi:type="menu:HandledMenuItem" xmi:id="_cn9esH5XEeGdRqm2I-i8Vw" label="Remove Todo" command="_2HDzcH5QEeGdRqm2I-i8Vw"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_AwdW4H5YEeGdRqm2I-i8Vw" label="Test" command="_EOXsYH5REeGdRqm2I-i8Vw"/>
       </children>
+      <children xsi:type="menu:Menu" xmi:id="_zBAZkKBfEeG9dfbXTLBYeg">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_zVNH8KBfEeG9dfbXTLBYeg"/>
+      </children>
     </mainMenu>
     <trimBars xmi:id="_LOifUH5YEeGdRqm2I-i8Vw">
       <children xsi:type="menu:ToolBar" xmi:id="_Nnc3cH5YEeGdRqm2I-i8Vw">
