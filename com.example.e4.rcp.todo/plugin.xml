@@ -18,5 +18,18 @@
          </property>
       </product>
    </extension>
+   
+	 <extension
+         point="org.eclipse.core.expressions.definitions">
+      <definition
+            id="com.example.e4.rcp.todo.todooverviewselected">
+         <with
+               variable="activePartId">
+            <equals
+                  value="com.example.e4.rcp.ui.parts.todooverview">
+            </equals>
+         </with>
+      </definition>
+   </extension>
 
 </plugin>

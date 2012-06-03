@@ -27,7 +27,9 @@
       <children xsi:type="menu:Menu" xmi:id="_BOuHkH5VEeGdRqm2I-i8Vw" label="Edit">
         <children xsi:type="menu:HandledMenuItem" xmi:id="_h2cnsH5VEeGdRqm2I-i8Vw" label="New Todo" command="_75fsIH5QEeGdRqm2I-i8Vw"/>
         <children xsi:type="menu:HandledMenuItem" xmi:id="_cn9esH5XEeGdRqm2I-i8Vw" label="Remove Todo" command="_2HDzcH5QEeGdRqm2I-i8Vw"/>
-        <children xsi:type="menu:HandledMenuItem" xmi:id="_AwdW4H5YEeGdRqm2I-i8Vw" label="Test" command="_EOXsYH5REeGdRqm2I-i8Vw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_AwdW4H5YEeGdRqm2I-i8Vw" elementId="com.example.e4.rcp.todo.menusitems.test" label="Test" command="_EOXsYH5REeGdRqm2I-i8Vw">
+          <parameters xmi:id="_3eMYsK1nEeG69MUmHsFXbQ" elementId="menuinputparameter" name="com.example.e4.rcp.todo.commandparameter.input" value="Lars"/>
+        </children>
       </children>
     </mainMenu>
     <trimBars xmi:id="_LOifUH5YEeGdRqm2I-i8Vw">
@@ -45,7 +47,9 @@
   <commands xmi:id="_ywRd0H5QEeGdRqm2I-i8Vw" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
   <commands xmi:id="_2HDzcH5QEeGdRqm2I-i8Vw" elementId="com.example.e4.rcp.todo.remove" commandName="Remove Todo"/>
   <commands xmi:id="_75fsIH5QEeGdRqm2I-i8Vw" elementId="com.example.e4.rcp.todo.new" commandName="New Todo"/>
-  <commands xmi:id="_EOXsYH5REeGdRqm2I-i8Vw" elementId="com.example.e4.rcp.todo.test" commandName="For testing"/>
+  <commands xmi:id="_EOXsYH5REeGdRqm2I-i8Vw" elementId="com.example.e4.rcp.todo.test" commandName="For testing">
+    <parameters xmi:id="_3aKpwK1mEeG69MUmHsFXbQ" elementId="com.example.e4.rcp.todo.commandparameter.input" name="Input" typeId=""/>
+  </commands>
   <addons xmi:id="_MKihcX5AEeGdRqm2I-i8Vw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_MKihcn5AEeGdRqm2I-i8Vw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_MKihc35AEeGdRqm2I-i8Vw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

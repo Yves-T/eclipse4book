@@ -7,6 +7,7 @@ import org.eclipse.e4.ui.di.Focus;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Text;
 
 public class TodoOverviewPart {
 
@@ -17,6 +18,7 @@ public class TodoOverviewPart {
 	public void createControls(Composite parent) {
 		label = new Label(parent,SWT.NONE);
 		label.setText("Hello");
+		new Text(parent, SWT.BORDER);
 	}
 	
 	@PreDestroy
